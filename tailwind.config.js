@@ -25,6 +25,9 @@ export default {
         secondary:'#0198E9',
         text_primary:'#333'
 
+      },
+      boxShadow: {
+        categories: '0px 2px 8px 0px rgba(0, 0, 0, 0.08)',
       }
     },
   },

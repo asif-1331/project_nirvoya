@@ -6,3 +6,13 @@
 body{
     background: #FAFAFA;
 }
+
+.swiper {
+    width: 925px;
+    height: 563px;
+    margin-right: 27px;
+}
+
+img{
+    display: unset;
+}
