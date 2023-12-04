@@ -17,6 +17,7 @@ const Categories = () => {
               SvgSrc={Item.icon}
               SvgAlt={Item.title}
               title={Item.title}
+              CategoryItemLink='/shop'
             />
           ))
         }

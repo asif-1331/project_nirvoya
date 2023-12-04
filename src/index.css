@@ -16,3 +16,12 @@ body{
 img{
     display: unset;
 }
+
+.shop__filter__list{
+    padding-left: 19px;
+    list-style: unset;
+}
+
+li::marker{
+    padding-right:-10px;
+}
