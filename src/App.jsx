@@ -1,26 +1,32 @@
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
-import Home from "./pages/Home"
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import Shop from "./pages/Shop";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
   },
+  {
+    path: "/shop",
+    element: <Shop/>,
+  },
+  {
+    path: "/shop/:category",
+    element: <Shop/>,
+  },
   // {
   //   path: "/product",
   //   element: <Product/>,
   // },
-  // {
-  //   path: "/shop/:category",
-  //   element: <Shop/>,
-  // },
 ]);
+
 
 function App() {
   return (
