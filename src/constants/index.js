@@ -34,6 +34,13 @@ import FeaturedProduct11 from '../assets/product_photos/FeaturedProduct11.jpg'
 import FeaturedProduct12 from '../assets/product_photos/FeaturedProduct12.jpg'
 import FeaturedProduct13 from '../assets/product_photos/FeaturedProduct13.jpg'
 
+
+import Reviewer1 from '../assets/reviewers/Reviewer1.png'
+import Reviewer2 from '../assets/reviewers/Reviewer2.png'
+import Reviewer3 from '../assets/reviewers/Reviewer3.png'
+import Reviewer4 from '../assets/reviewers/Reviewer4.png'
+
+
 export const CategoryItems = [
     {
         title: 'Health & Household',
@@ -230,4 +237,15 @@ export const FeaturedProduct = [
         price: '1000'
     },
     
+]
+
+
+export const ProductReviewers = [
+    {
+        name:'Vanille',
+        photo:Reviewer1,
+        review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
+        rating: 5,
+        dateTime:'1 Month Ago'
+    },
 ]
