@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Shop from "./pages/Shop";
+import Product from "./pages/Product";
 
 
 const router = createBrowserRouter([
@@ -21,10 +22,10 @@ const router = createBrowserRouter([
     path: "/shop/:category",
     element: <Shop/>,
   },
-  // {
-  //   path: "/product",
-  //   element: <Product/>,
-  // },
+  {
+    path: "/product",
+    element: <Product/>,
+  },
 ]);
 
 
