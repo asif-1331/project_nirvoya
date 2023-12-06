@@ -14,11 +14,13 @@ const Navbar = () => {
         <div className='bg-[#FBFBFB]'>
             <Container>
                 <Flex className='font-poppins justify-between py-8'>
-                    <Img src={logo} alt={'Project Nirvoya Logo'} WrapperClassName='w-[10%]' />
+                    <a href="/">
+                        <Img src={logo} alt={'Project Nirvoya Logo'} WrapperClassName='w-[10%]' />
+                    </a>
 
                     <div className='relative w-[778px]'>
                         <input type="search" className='bg-[#F6F6F6] rounded-[5px] border-[1px] border-[#F1F1F1] py-3 px-5 outline-none w-[100%]' placeholder="I'm looking for..." />
-                        <div className='py-2 px-4 h-[100%] bg-[#0198E9] border border-[#0198E9] absolute right-0 bottom-0 rounded-r-[5px]'>
+                        <div className='py-2 px-4 h-[100%] bg-[#0198E9] border border-[#0198E9] absolute right-0 bottom-0 rounded-r-[5px] cursor-pointer'>
                             <img src={Search} />
                         </div>
                     </div>
@@ -43,7 +45,7 @@ const Navbar = () => {
                 </Flex>
             </Container>
 
-            <div> 
+            <div>
                 <DropDownNav />
             </div>
             <hr className='bg-[#E5E5E5] h-[1px]' />

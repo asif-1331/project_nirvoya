@@ -6,3 +6,22 @@
 body{
     background: #FAFAFA;
 }
+
+.swiper {
+    width: 925px;
+    height: 563px;
+    margin-right: 27px;
+}
+
+img{
+    display: unset;
+}
+
+.shop__filter__list{
+    padding-left: 19px;
+    list-style: unset;
+}
+
+li::marker{
+    padding-right:-10px;
+}

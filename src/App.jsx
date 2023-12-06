@@ -1,14 +1,39 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
+import Shop from "./pages/Shop";
+import Product from "./pages/Product";
 
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/shop",
+    element: <Shop/>,
+  },
+  {
+    path: "/shop/:category",
+    element: <Shop/>,
+  },
+  {
+    path: "/product",
+    element: <Product/>,
+  },
+]);
 
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
+      <RouterProvider router={router} />
       <Footer/>
     </>
   )
