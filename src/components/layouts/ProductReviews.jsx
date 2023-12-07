@@ -36,7 +36,11 @@ const ProductReviews = () => {
             <hr className='bg-[#E5E5E5] h-[1px]' />
 
             <div className="pt-[22px] pl-[47px]">
-                <Reviewers className='pb-[33px]' name={ProductReviewers.name} photo={ProductReviewers.photo} review={ProductReviewers.review} ratingStar={ProductReviewers.ratingStar} dateTime={ProductReviewers.dateTime}/>
+                {/* <Reviewers className='pb-[33px]' name={ProductReviewers.name} photo={ProductReviewers.photo} review={ProductReviewers.review} ratingStar={ProductReviewers.ratingStar} dateTime={ProductReviewers.dateTime}/> */}
+
+                {
+                    
+                }
             </div>
 
             <ReviewForm id='Review' />
