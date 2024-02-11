@@ -211,7 +211,7 @@ export const FeaturedProduct = [
         reviewStar: 4,
         price: '1000'
     },
-    
+
     {
         title: 'Headrest Executive Mesh Office Chair set',
         photo: FeaturedProduct1,
@@ -236,16 +236,100 @@ export const FeaturedProduct = [
         reviewStar: 4,
         price: '1000'
     },
-    
+
 ]
 
 
 export const ProductReviewers = [
     {
-        name:'Vanille',
-        photo:Reviewer1,
-        review:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
+        name: 'Vanille',
+        photo: Reviewer1,
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         rating: 5,
-        dateTime:'1 Month Ago'
+        dateTime: '1 Month Ago'
     },
 ]
+
+export const NavHeaderCategory = [
+    "Women's Fashion",
+    "men's Fashion",
+    "Kid's Fashion",
+    "Home & Lifestyle",
+    "Arts & Crafts",
+    "Computer & Electronics",
+    "Food & Grocery"
+]
+export const HeaderSubCat = ["Saree", "Clothes", "Cosmetic", "Sports & Outdoor", "Personal Care", "Shoes"]
+
+export const HeaderSubCatItems = {
+    Saree: [
+        "Cotton",
+        "Silk",
+        "Katan",
+        "Muslin",
+        "Jamdani",
+        "Georgette",
+        "Nakshi Kantha",
+        "Linen",
+        "Khadi",
+        "Tangail Taant",
+        "Monipuri",
+        "Dhakai Benaroshi"
+    ],
+    Clothes: [
+        "T-shirt",
+        "Shorts",
+        "Shirt",
+        "Tracksuit",
+        "Jeans",
+        "Georgette",
+        "Waistcoat",
+        "Sweater",
+        "coats",
+        "Suit",
+        "Sweatshirt",
+        "Uniform"
+    ],
+    Cosmetic: [
+        "Perfume",
+        "Eye make-up",
+        "Skin care",
+        "Hair care",
+        "Make-up",
+        "Oral Care",
+        "Body Care",
+        "Sanitary pad",
+        "Shower Gels & Creams",
+        "Hair Removal Products",
+        "Lipstick",
+        "Suntan cream"
+    ],
+    Sports: [
+        "Sweatshirt",
+        "T-shirt",
+        "Sports Bra",
+        "Leggings",
+        "Tracksuit",
+        "Running Shoes",
+        "Sports Bag",
+        "Sports Equipment",
+        "Outdoor Shoes",
+        "Snow Boot",
+        "Outdoor Equipment",
+        "Sports Accessories",
+    ],
+    PersonalCare: [
+        "Perfume",
+        "Sexual Health",
+        "After Shave Products",
+        "Razor blade",
+    ],
+    Shoes: [
+        "Heeled shoes",
+        "sneakers",
+        "Casual Shoes",
+        "Babet",
+        "Sandals",
+        "Slipper",
+    ],
+}

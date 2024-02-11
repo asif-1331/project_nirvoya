@@ -9,7 +9,7 @@ import DownArrow from '../../assets/ArrowDown.svg'
 const ShopProducts = () => {
     return (
         <div className='mt-[62px] w-[100%]'>
-            <Flex className='justify-between mb-[12px]'>
+            <Flex className='justify-between mb-[12px] flex-col-reverse md:flex-row gap-y-3'>
                 <p className='text-[#424241]/[.50] text-lg font-[500]'> Showing
                     <span className='text-[#424241] text-lg font-[500]'> 20</span> of
                     <span className='text-[#424241] text-lg font-[500]'> 160</span> product
@@ -24,7 +24,7 @@ const ShopProducts = () => {
                     </select>
                 </Flex>
             </Flex>
-            <Grid className='grid-cols-3 gap-6'>
+            <Grid className='grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6'>
                 {
                     FeaturedProduct.map((product, index) => (
                         <Product
@@ -34,12 +34,12 @@ const ShopProducts = () => {
                             price={product.price}
                             reviewStar={product.reviewStar}
                         />
-                        
+
                     ))
                 }
             </Grid>
 
-            <Flex className='justify-center pt-[40px]'>
+            <Flex className='justify-center pt-[40px] mb-8'>
                 <button className='bg-[#34ADED] rounded-[81px]'>
                     <Flex className='py-[11px] px-[26px]'>
                         <p className='text-white text-base font-[600] uppercase mr-1'>Show more</p>

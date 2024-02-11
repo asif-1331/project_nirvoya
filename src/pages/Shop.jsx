@@ -7,7 +7,7 @@ import Container from '../components/layouts/Container'
 const Shop = () => {
   return (
     <Container>
-        <Flex className='gap-[53px]'>
+        <Flex className='lg:gap-[53px] flex-col lg:flex-row'>
             <ShopFilter/>
             <ShopProducts/>
         </Flex>

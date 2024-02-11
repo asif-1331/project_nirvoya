@@ -11,14 +11,14 @@ const FlashDealProducts = () => {
     <div className='mb-[50px]'>
       <Flex className='justify-between pb-[20px]'>
         <p className='text-[#2E2E2E] text-[26px] font-[500]'>Flash Deals</p>
-        <a>
+        <a className='flex items-center'>
           <Flex className='cursor-pointer'>
             <p className='text-[#757575] text-[16px] flex self-center font-[500] mr-[18px] w-[5.4rem]'>View more</p>
             <img src={RightArrow} />
           </Flex>
         </a>
       </Flex>
-      <Grid className='grid-cols-4 gap-6'>
+      <Grid className='grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6'>
         {
           FlashSaleProduct.map((product, index) => (
             <Product

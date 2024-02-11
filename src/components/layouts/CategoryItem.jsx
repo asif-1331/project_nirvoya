@@ -8,7 +8,7 @@ const CategoryItem = ({ SvgSrc, SvgAlt, title, CategoryItemLink }) => {
             <Flex className='py-4 pl-[18px] pr-2 self-center justify-between'>
                 <Flex className='self-center mr-6'>
                     <img src={SvgSrc} alt={SvgAlt} className='mr-[5px]' />
-                    <p className='flex self-center text-base font-[400] text-[#394146]'>{title}</p>
+                    <p className='flex self-center text-sm md:text-base font-[400] text-[#394146]'>{title}</p>
                 </Flex>
                 <img src={Arrow} />
             </Flex>

@@ -9,7 +9,7 @@ const Categories = () => {
   return (
     <div className='pt-[50px] pb-11'>
       <p className='pb-8 text-2xl font-[500] text-text_primary'>Category</p>
-      <Grid className='grid-cols-5 gap-3'>
+      <Grid className='grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3'>
         {
           CategoryItems.map((Item, index) => (
             <CategoryItem

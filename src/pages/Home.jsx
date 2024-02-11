@@ -7,16 +7,15 @@ import Flex from '../components/layouts/Flex'
 import Categories from '../components/layouts/Categories'
 import FeaturedProducts from '../components/layouts/FeaturedProducts'
 import FlashDealProducts from '../components/layouts/FlashDealProducts'
-import Grid from '../components/layouts/Grid'
 
 
 
 const Home = () => {
   return (
     <Container className='font-poppins'>
-      <Flex  className='pt-3'>
+      <Flex  className='pt-3 gap-x-7'>
         <HomeSlider />
-        <Flex>
+        <Flex className="hidden lg:display_visible">
           <div className='w-[448px]'>
             <a href="" className='pb-7 inline-block'> 
               <img src={HeroImg1} alt='Groceries collection'  />

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body{
+body {
     background: #FAFAFA;
 }
 
@@ -13,15 +13,47 @@ body{
     margin-right: 27px;
 }
 
-img{
+img {
     display: unset;
 }
 
-.shop__filter__list{
+.shop__filter__list {
     padding-left: 19px;
     list-style: unset;
 }
 
-li::marker{
-    padding-right:-10px;
+li::marker {
+    padding-right: -10px;
+}
+
+
+@layer utilities {
+    .display_visible {
+        display: unset;
+    }
+
+    .display_visible_flex {
+        display: flex;
+    }
+
+    .position_unset {
+        position: unset;
+    }
+
+    .overflow_scroll_y {
+        overflow-y: scroll;
+    }
+
+    .nav__header__overflow{
+        overflow-x: scroll;
+    }
+    .nav__header__overflow__unset{
+        overflow: unset;
+    }
+    .sub__header__container:hover .sub__header {
+        opacity: 1;
+    }
+
+
+
 }
